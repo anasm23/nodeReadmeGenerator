@@ -1,0 +1,23 @@
+{
+  "name": "nodereadmegenerator",
+  "version": "1.0.0",
+  "description": "node command line application which generates a proper readme",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anasm23/nodeReadmeGenerator.git"
+  },
+  "keywords": [
+    "node",
+    "readme"
+  ],
+  "author": "Muhammad Anas",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anasm23/nodeReadmeGenerator/issues"
+  },
+  "homepage": "https://github.com/anasm23/nodeReadmeGenerator#readme"
+}
