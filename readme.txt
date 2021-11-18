@@ -1,1 +1,1 @@
-{"name":"a","desc":"a","TOC":true,"install":"a","use":"a","license":"a","contribute":"a","tests":"a","questions":"a"}
+{"name":"Readme","desc":"abc","TOC":true,"install":"N","use":"N","license":"N","contribute":"N'","tests":"N","questions":"N"}
