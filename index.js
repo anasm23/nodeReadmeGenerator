@@ -1,9 +1,13 @@
 // Creating node dependencies
 const inquirer = require("inquirer");
 const fs = require("fs");
+const generateMarkdown = require("./utils/generateMarkdown");
+const util = require("util");
 
+// returns a promise to convert responses into an object.
+const writeFileAsync = util.promisify(fs.writeFile);
 
-//inquirer prompt which will prompt readme information to fill out
+//prompts readme information to fill out
 inquirer.prompt([
 {
         type: "input",
@@ -50,9 +54,8 @@ inquirer.prompt([
     name: "q",
     message: "Questions:"
 }
-]).then(function(response){
-    fs.writeFile("readme.txt",JSON.stringify(response),function(err){
-        if (err) return false;
-        else{console.log("worked")}
-    })
+]).then(function(res){
+    return writeFileAsync("readme.txt",generateMarkdown(res)).then(function(){
+        console.log("worked");
+    }).catch(function(err){console.log(err)});
 });
