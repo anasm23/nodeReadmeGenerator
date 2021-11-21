@@ -1,23 +1,24 @@
-# Readme Generator
+## Readme Generator
     
-# DESCRIPTION
+## DESCRIPTION
 Node command line application using inquirer, axios, fs, and util node packages to quickly create a good readme file.
     
-# TABLE OF CONTENTS
+## TABLE OF CONTENTS
 true
 
-#INSTALL
+
+## INSTALL
 npm i 
 
-#LICENSE
+## LICENSE
 MIT License
 
-#CONTRIBUTORS
+## CONTRIBUTORS
 Sole contributor
 
-#TESTS
+## TESTS
 Node command line application using inquirer, axios, fs, and util node packages to quickly create a good readme file.
 
-#QUESTIONS
+## QUESTIONS
 Contact Muhammad Anas
   
