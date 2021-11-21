@@ -1,1 +1,1 @@
-{"name":"Readme","desc":"abc","TOC":true,"install":"N","use":"N","license":"N","contribute":"N'","tests":"N","questions":"N"}
+{"name":"App","desc":"a","TOC":false,"install":"a","use":"a","license":"a","contribute":"a","tests":"a","questions":"a"}

@@ -16,7 +16,7 @@ inquirer.prompt([
 },
 {
     type: "confirm",
-    name: "TOC",
+    name: "toc",
     message: "Do you want a table of contents",
 },
 {
@@ -36,7 +36,7 @@ inquirer.prompt([
 },
 {
     type: "input",
-    name: "contribute",
+    name: "cont",
     message: "Contributing:"
 },
 {
@@ -46,7 +46,7 @@ inquirer.prompt([
 },
 {
     type: "input",
-    name: "questions",
+    name: "q",
     message: "Questions:"
 }
 ]).then(function(response){
