@@ -55,7 +55,7 @@ inquirer.prompt([
     message: "Questions:"
 }
 ]).then(function(res){
-    return writeFileAsync("readme.txt",generateMarkdown(res)).then(function(){
+    return writeFileAsync("readme.md",generateMarkdown(res)).then(function(){
         console.log("worked");
     }).catch(function(err){console.log(err)});
 });
